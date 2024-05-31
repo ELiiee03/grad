@@ -17,7 +17,7 @@
 //     };
 // });
 
-const preloaderEl = document.querySelector('.preloader');
+const preloaderEl = document.querySelector('.pre-loader');
 
 window.addEventListener('load', function() {
 
