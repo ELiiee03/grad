@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color: #1E0731;
-}
+} */
 footer{
     position: absolute;
     margin-top: 300px;
@@ -14,10 +14,23 @@ footer img{
     vertical-align: middle;
 }
 
+.preloader{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E0731;
+}
+
 .wrapper{
-    position: absolute;
+    display: flex;
+    position: fixed;
     float: center;
-    margin: 140px 100px;
+    /* margin: 140px 100px; */
 }
 
 .line{
