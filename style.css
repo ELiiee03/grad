@@ -25,14 +25,20 @@ footer img{
     justify-content: center;
     background-color: #1E0731;
     /* outline: 100px solid red; */
+    z-index: 9999;
+    transition: opacity 3s ease;
 }
+/* .fade-out-animation {
+    opacity: 0;
+    visibility: hidden;
+} */
 
 .wrapper{
     display: flex;
     position: fixed;
     float: center;
     /* margin: 140px 100px; */
-    outline: 20px solid red;
+    /* outline: 20px solid red; */
 }
 
 .line{
